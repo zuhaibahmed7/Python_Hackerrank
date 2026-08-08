@@ -1,0 +1,67 @@
+def multiplication_table(N):
+    for i in range(1, 11):
+        print(i*N, end = " ")
+print()
+multiplication_table(5)
+print()
+
+
+# Cube of a number 
+def cube(N):
+    return N**3
+print(cube(5))
+
+
+
+
+def Display_numbers_using_con(numbers):
+    for i in numbers:
+        if i%5 == 0:
+            print(i, end = " ")
+        if i >150:
+            continue;
+        if i > 500:
+             break
+         
+numbers = [12, 75, 150, 180, 145, 525, 50]
+Display_numbers_using_con(numbers)
+print()
+
+def occurence(list1, target):
+    return list1.count(target)
+    
+    
+list1 = [10, 20, 10, 30, 10, 40, 50]
+result = occurence(list1, 10)
+print(result)
+print()
+
+
+
+def odd_index_elements(lst):
+    for ind, value in enumerate(lst):
+        if ind % 2 != 0:
+            print(value, end = " ")
+            
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+odd_index_elements(my_list)
+print()
+
+
+# Using slicing
+def print_lst_in_reverse(lst):
+    return lst[::-1]
+list1 = [10, 20, 30, 40, 50]
+print(print_lst_in_reverse(list1))
+print()
+
+
+
+# Using loop
+def print_lst_in_reverse2(lst):
+    for i in range(len(lst)-1, -1, -1):
+        print(lst[i], end = " ")
+        
+list1 = [10, 20, 30, 40, 50]
+print_lst_in_reverse2(list1)
+print()
