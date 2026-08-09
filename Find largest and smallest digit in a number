@@ -1,0 +1,13 @@
+def largest_and_smallest_digit(N):
+    largest = 0
+    smallest = 9
+    while(N > 0):
+        digit = N%10
+        if digit<smallest:
+            smallest = digit
+        if digit>largest:
+            largest = digit
+        N = N//10
+    print(f"Smallest No: {smallest} and largest No: {largest}")
+
+largest_and_smallest_digit(75869)
