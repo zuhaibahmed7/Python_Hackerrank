@@ -1,0 +1,28 @@
+def palindrome_num(Num):
+    str_num = str(Num)
+    new_num = ""
+    for i in range(-1, -(len(str_num)+1), -1):
+        new_num += str_num[i]
+    return new_num == str_num
+
+print(palindrome_num(121))
+print()
+
+def palindrome_num1(Num):
+    org_Num = str(Num)
+    new_num = ""
+    for i in range(len(org_Num)-1,-1, -1):
+        new_num += org_Num[i]
+    return new_num == org_Num
+    
+print(palindrome_num1(232))
+print()
+
+def palindrome_num2(Num):
+    org_Num = str(Num)
+    new_num = ""
+    for i in (org_Num):
+        new_num = i + new_num
+    return new_num == org_Num
+    
+print(palindrome_num2(4444))
