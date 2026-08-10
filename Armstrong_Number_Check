@@ -1,0 +1,11 @@
+def Armstrong_Number_Check(N):
+    org_num = N
+    result = 0
+    while N > 0:
+        digit = N % 10
+        cube = digit*digit*digit
+        result +=cube
+        N = N//10
+    return result == org_num
+
+print(Armstrong_Number_Check(153))
