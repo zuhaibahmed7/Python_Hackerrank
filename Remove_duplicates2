@@ -1,0 +1,11 @@
+def Remove_duplicates2(lst):
+    new_lst = []
+    new_lst.append(lst[0])
+    for i in lst:
+        if i == new_lst[-1]:
+            continue;
+        else:
+            new_lst.append(i)
+    print(new_lst)
+
+Remove_duplicates1([1, 2, 2, 3, 4, 4, 4, 5])
