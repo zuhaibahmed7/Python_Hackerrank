@@ -1,0 +1,8 @@
+def Remove_duplicates2(lst):
+    uni_lst = []
+    for i in lst:
+        if i not in uni_lst:
+            uni_lst.append(i)
+    print(uni_lst)
+
+def Remove_duplicates2(lst):
