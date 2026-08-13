@@ -1,0 +1,10 @@
+def List_Cumulative_Sum():
+    numbers = [1, 2, 3, 4]
+    current_sum = 0
+    new_list = []
+    for i in numbers:
+        current_sum += i
+        new_list.append(current_sum)
+    print(new_list)
+
+List_Cumulative_Sum()
