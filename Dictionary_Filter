@@ -1,0 +1,10 @@
+def Dictionary_Filter():
+    dct = {}
+    scores = {"Alice": 85, "Bob": 70, "Charlie": 95, "David": 60}
+    for name, score in scores.items():
+        if score >= 75:
+            dct[name] = score
+    
+    print(dct)
+
+Dictionary_Filter()
