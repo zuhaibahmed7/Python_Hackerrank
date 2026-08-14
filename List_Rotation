@@ -1,0 +1,8 @@
+def  List_Rotation(lst, k):
+    for _ in range(k):
+        first_element = lst.pop(0)
+        lst.append(first_element)
+    print(lst)
+
+List_Rotation([1, 2, 3, 4, 5], 2)
+
