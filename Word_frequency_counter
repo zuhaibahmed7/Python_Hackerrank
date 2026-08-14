@@ -1,0 +1,13 @@
+def  Word_frequency_counter(str):
+    dct = {}
+    str = str.split()
+    for i in str:
+        if i in dct:
+            dct[i] +=1
+        else:
+            dct[i] = 1
+    print(dct)
+
+
+text = "apple banana apple orange banana apple"
+Word_frequency_counter(text)
