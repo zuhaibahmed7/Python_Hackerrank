@@ -1,0 +1,12 @@
+def display_prime_numbers(start, end):
+    prim_lst = []
+    for i in range(start, end):
+        bool = True 
+        for j in range(2, i//2+1):
+            if i%j == 0: 
+                bool = False
+        if bool:
+            prim_lst.append(i)
+    print(prim_lst)
+
+display_prime_numbers(25, 50)
