@@ -1,0 +1,11 @@
+def Nested_list_search(mtrx, target):
+    new_lst = []
+    for i in mtrx:
+        for j in i:
+            if j == target:
+                return True
+    return False
+
+
+nested_list = [[10, 20], [30, 40], [50, 60]]
+print(Nested_list_search(nested_list,90 ))
