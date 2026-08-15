@@ -1,0 +1,8 @@
+def  Display_fibonacci_series(upto):
+    lst = [0,1]
+    for i in range(2, upto):
+        lst.append(lst[i-1]+lst[i-2])
+    print(lst)
+
+Display_fibonacci_series(10)
+
