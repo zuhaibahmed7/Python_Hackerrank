@@ -1,0 +1,4 @@
+
+firs_name = "Zuhaib"
+last_name = "Ahmed"
+print(firs_name, last_name, sep = "***")
