@@ -1,0 +1,11 @@
+def outer(a,b):
+  def inner():
+    result = a+b
+    return result
+
+  final = inner()
+  return final+5
+
+
+ans = outer(4,3)
+print(ans)
