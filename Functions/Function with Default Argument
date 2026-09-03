@@ -1,0 +1,4 @@
+def Function_with_Default_Argument(name , salary = 9000):
+  print(f"my name is {name} and salary is {salary}")
+
+Function_with_Default_Argument("Ahmed")
