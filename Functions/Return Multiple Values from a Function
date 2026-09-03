@@ -1,0 +1,8 @@
+def calculation(no1, no2):
+  sum = no1+no2
+  sub = no1-no2
+  return sum, sub
+
+print(calculation(3,5))
+
+  
