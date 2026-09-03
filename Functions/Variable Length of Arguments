@@ -1,0 +1,8 @@
+def var_len_arg(*args):
+  print("Printing values:")
+  for i in args:
+    print(i, end = " ")
+
+
+var_len_arg(2,3,4,5)
+  
