@@ -1,0 +1,10 @@
+def Largest_Item(lst):
+  #using for loop
+  larger = lst[0]
+  for i in range(len(lst)):
+    if lst[i] > larger:
+      larger = lst[i]
+  return larger
+
+
+print(f"largest number is {Largest_Item([4, 6, 8, 24, 12, 2])}")
