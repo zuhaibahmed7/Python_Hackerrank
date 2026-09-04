@@ -1,0 +1,5 @@
+def Different_Name_Function(name, age):
+  print(f"My name is {name} and age is {age}")
+
+display_student = Different_Name_Function
+display_student("Zuhaib Ahmed", 23)
