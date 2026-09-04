@@ -1,0 +1,6 @@
+def List_Even_Numbers(num):
+  lst = list(range(0,num+1,2))
+  print(lst)
+
+
+List_Even_Numbers(10)
