@@ -1,0 +1,11 @@
+def Recursive_Function(input):
+  if input > 0:
+    return input + Recursive_Function(input-1)
+  else:
+    return 0
+
+print(Recursive_Function(10))
+
+
+    
+    
