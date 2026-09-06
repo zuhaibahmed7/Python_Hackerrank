@@ -1,0 +1,7 @@
+def Function_Keyword_Arguments(**kwargs):
+  for key, value in kwargs.items():
+    print(f"{key} : {value}")
+    
+  print(kwargs)
+
+Function_Keyword_Arguments(name = "Zuhaib Ahmed", age = 23, city = "Khairpur Mir's")
