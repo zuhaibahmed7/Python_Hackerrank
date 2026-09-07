@@ -1,0 +1,5 @@
+    # Lambda Function -----> need one argument
+
+squa_num = lambda num : num * num
+result = squa_num(5)
+print(f"Sqaured number is : {result}")
