@@ -1,0 +1,5 @@
+words = ["apple", "bat", "cherry", "dog", "elderberry"]
+ 
+result = [w.upper() for w in words if len(w)>=4]
+print(f"original list {words}")
+print(f"new filtered list {result}")
