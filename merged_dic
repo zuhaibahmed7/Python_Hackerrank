@@ -1,0 +1,9 @@
+def merged_dic(dict_a, dict_b): 
+    result_dic = dict_a.copy()
+    for key, value in dict_b.items():
+        result_dic[key] = result_dic.get(key, 0) + value
+    return result_dic
+
+dict_a = {'a': 10, 'b': 20} 
+dict_b = {'b': 5, 'c': 15}
+print(merged_dic(dict_a, dict_b))
