@@ -1,0 +1,18 @@
+def Remove_Duplicates(lst):
+  result = []
+  for i in lst:
+    if i in result:
+      continue
+    else:
+      result.append(i)
+  return result
+
+
+lst = [ 1, 2, 3, 4, 5, 1, 2, 3]
+print(Remove_Duplicates(lst))
+
+
+def Remove_Duplicates2(lst):
+  return list(set(lst))
+
+print( Remove_Duplicates2(lst))
