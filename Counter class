@@ -1,0 +1,10 @@
+      # Using Couter class find the number of occurance of each character in the strihg
+
+from collections import Counter
+def counter(str):
+  filtered_txt = str.lower().replace(" ", "")
+  return Counter(filtered_txt)
+
+
+text = "This is me Zuhaib Ahmed Mahar"
+print(counter(text))
