@@ -1,0 +1,18 @@
+def reverse_string(str):
+  char_list = list(str)
+  start = 0 
+  end = len(str)-1
+  while start<end :
+    char_list[start], char_list[end] = char_list[end], char_list[start]
+    start = start + 1
+    end = end -1
+
+  return "".join(char_list)
+
+
+print(reverse_string("Hello World"))
+
+def reverse_string2(str):
+  return str[::-1]
+
+print(reverse_string2("Hello World"))
