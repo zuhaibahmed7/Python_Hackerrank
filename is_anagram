@@ -1,0 +1,7 @@
+def is_anagram (txt1, txt2):
+  s1 = sorted(txt1.lower().replace(" ", ""))
+  s2 = sorted(txt2.lower().replace(" ", ""))
+
+  return s1 == s2
+
+print(is_anagram("silent", "listen"))
