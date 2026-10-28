@@ -1,0 +1,6 @@
+
+
+lst_str = ["zuhaib", "ane", "muhammad Ismail", "ali Gul", "uzairAhmed", "soohn"]
+
+updated_lst = [ w.capitalize() for w in lst_str if len(w) >=4 ]
+print(updated_lst)
